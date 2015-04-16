@@ -1,0 +1,19 @@
+{
+  "name": "raspmonitor",
+  "version": "1.0.0",
+  "description": "Raspberry Pi 2 Bluemix Web App Monitor on IBM IoT Foundation",
+  "main": "piclient.js",
+  "repository" :  "Sing-Li/raspberry-pi-2-iot-bluemix-monitor",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "S Li <sli@makawave.com> (https://github.com/Sing-Li)",
+  "private": true,
+  "license": "MITNFA",
+  "dependencies": {
+    "casperjs": "^1.1.0-beta3",
+    "moment": "^2.9.0",
+    "mqtt": "^1.1.2",
+    "spooky": "^0.2.5"
+  }
+}

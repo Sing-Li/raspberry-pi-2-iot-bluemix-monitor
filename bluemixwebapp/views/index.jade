@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  div(class='container')
+    h3  Welcome to #{title}
+    form(id='itemaddform' action='/items/add' method='post')
+      div(class='fields')
+        label(for='item') 
+          span item
+          input(id='item',type='text',value='',placeholder='',name='item')          
+        label(for='quantity') 
+          span quantity
+          input(id='quantity',type='text',value='',placeholder='0',name='quantity')
+      div(class='addbutton')
+        input(type='submit',value='Add item')
+
